@@ -32,7 +32,7 @@ function App() {
   };
 
   async function handGet() {
-    for (let c = 1; c <= 100; c++) {
+    for (let c = 1; c <= 500; c++) {
       let res = await fetch(`https://pokeapi.co/api/v2/pokemon/${c}/`).then(
         (re) => re.json()
       );

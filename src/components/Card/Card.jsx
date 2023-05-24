@@ -4,7 +4,7 @@ import "./Card.scss"
 
 const Card = ({img, nome, tipo}) => {
   return (
-    <div className= {`card ${tipo}` } >
+    <div className= {`card` } >
         <div className="boxImg">
             <img src={img} />
         </div>
